@@ -1,5 +1,4 @@
 # 使用步骤
-* step1 : sudo ./wireguard_install.sh
 * step2 : chmod +x wireguard-install.sh
 * step3 : sudo ./wireguard-install.sh
 （注意开启默认的端口进站许可 UDP通讯协议）
