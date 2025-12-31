@@ -9,3 +9,5 @@
 * step5 : sudo sysctl -p
 * step6 : 设置开机自启：`sudo systemctl enable wg-quick@wg0`
 * step7 : 激活wg0的接口：`sudo wg-quick up wg0`
+
+* 如果在电脑端出现`ping www.google.com`通但无法上网 需要修改`xxx.conf`文件中的`MTU=1380`
