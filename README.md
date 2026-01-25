@@ -1,4 +1,11 @@
-# 使用步骤
+# 使用步骤 (New)
+终端执行： 
+> python3 start_wireguard.py
+*  选择 1 进行配置， 选择 2 重启 wireguard
+
+# 使用步骤 (手动)
+
+
 * step2 : chmod +x wireguard-install.sh
 * step3 : sudo ./wireguard-install.sh
 （注意开启默认的端口进站许可 UDP通讯协议）
