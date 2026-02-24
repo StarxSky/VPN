@@ -5,17 +5,20 @@ import time
 
 if input("Config Wireguard (1) || Restart Wireguard (2) \n") == "1":
     print("Initializing WireGuard VPN setup...")
-    os.system("sudo sed -i 's/^net.ipv4.ip_forward=.*/net.ipv4.ip_forward=1/' /etc/sysctl.conf") # enable ipv4 forwarding
-    os.system("sudo sed -i 's/^net.ipv6.conf.all.forwarding=.*/net.ipv6.conf.all.forwarding=1/' /etc/sysctl.conf") # enable ipv6 forwarding
+    
+    #os.system("sudo sed -i 's/^net.ipv4.ip_forward=.*/net.ipv4.ip_forward=1/' /etc/sysctl.conf") # enable ipv4 forwarding
+    #os.system("sudo sed -i 's/^net.ipv6.conf.all.forwarding=.*/net.ipv6.conf.all.forwarding=1/' /etc/sysctl.conf") # enable ipv6 forwarding
+    
     os.system("sudo sysctl -p") # apply sysctl changes
-    os.system("sysctl net.ipv4.ip_forward")
-    os.system("sysctl net.ipv6.conf.all.forwarding")
+    os.system("sysctl net.ipv4.ip_forward=1")
+    os.system("sysctl net.ipv6.conf.all.forwarding=1")
+    
     os.system("chmod +x wireguard_install.sh") # make the install script executable
     time.sleep(2)
     os.system("sudo ./wireguard_install.sh")
     print("流量转发开启状态")
-    os.system("sysctl net.ipv4.ip_forward")
-    os.system("sysctl net.ipv6.conf.all.forwarding")
+    os.system("sysctl net.ipv4.ip_forward=1")
+    os.system("sysctl net.ipv6.conf.all.forwarding=1")
 
 else :
     print("Starting WireGuard VPN...")
