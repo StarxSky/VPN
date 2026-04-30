@@ -4,6 +4,7 @@ $ chmod +x amneziawg-install.sh
 $ ./amneziawg-install.sh
 
 ```
+If you want to install AmneziaWG automatically you might be use below Application to configre your server.
 * [AmneziaVPN Client](https://amnezia.org/downloads)
 
 # 使用步骤 (New)
