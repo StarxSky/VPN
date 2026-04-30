@@ -1,3 +1,11 @@
+# Get more safty VPN ? (AmneziaWG)
+```
+$ chmod +x amneziawg-install.sh
+$ ./amneziawg-install.sh
+
+```
+* [AmneziaVPN Client](https://amnezia.org/downloads)
+
 # 使用步骤 (New)
 终端执行： 
 > python3 start_wireguard.py
