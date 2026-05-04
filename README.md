@@ -6,6 +6,7 @@ $ ./amneziawg-install.sh
 ```
 If you want to install AmneziaWG automatically you might be use below Application to configre your server.
 * [AmneziaVPN Client](https://amnezia.org/downloads)
+* [AmneziaWG Only (For iOS in AppStore)](https://github.com/amnezia-vpn/amneziawg-windows-client/releases)
 
 # 使用步骤 (New)
 终端执行： 
