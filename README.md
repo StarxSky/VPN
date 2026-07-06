@@ -7,7 +7,7 @@ Pay attention! you maybe need to change the **"Endpoint" to your Server IP (Publ
 
 $ awg show   # to checkout the status of AmneziaWG 
 You can rerun this script to (add / remove/ Uninstall Services )the users 
-$./amnezia-install.sh 
+$./amneziawg-install.sh 
 
 ```
 If you want to install AmneziaWG automatically you might be use below Application to configre your server.
