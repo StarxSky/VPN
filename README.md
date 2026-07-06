@@ -3,6 +3,12 @@
 $ chmod +x amneziawg-install.sh
 $ ./amneziawg-install.sh
 
+Pay attention! you maybe need to change the **"Endpoint" to your Server IP (Public Net) in the client file.**
+
+$ awg show   # to checkout the status of AmneziaWG 
+You can rerun this script to (add / remove/ Uninstall Services )the users 
+$./amnezia-install.sh 
+
 ```
 If you want to install AmneziaWG automatically you might be use below Application to configre your server.
 * [AmneziaVPN Client](https://amnezia.org/downloads)
